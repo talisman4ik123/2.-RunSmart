@@ -76,3 +76,23 @@ body {
         }
     }
 }
+
+.btn {
+    background-color: $redColor;
+    border-radius: 5px;
+    font-family: var(--font-family);
+    font-weight: 500;
+    @include adaptiveValue("font-size", 12, 8);
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    letter-spacing: 1.1px;
+}
+
+.title {
+    font-family: var(--font-family);
+    font-weight: 700;
+    @include adaptiveValue('font-size', 30, 24);
+    line-height: 100%;
+    color: #0d0d0d;
+}

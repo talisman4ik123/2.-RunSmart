@@ -1,16 +1,21 @@
 // Шрифт по умолчанию
-$fontFamily: "";
+$fontFamily: "MuseoSans";
 $fontSize: rem(14); // где 14(px) - размер шрифта по умолчанию из макета
 
 // Основные цвета
-$mainColor: #000; // Цвет шрифта по умолчанию
+$mainColor: #0D0D0D; 
+$redColor: #C70101;
+
+:root {
+    --font-family: "MuseoSans", sans-serif;
+}
 
 // Минимальная ширина страницы
 $minWidth: 320;
 // Ширина полотна (макета)
 $maxWidth: 1920;
 // Ширина ограничивающего контейнера (0 = нет ограничения)
-$maxWidthContainer: 1170;
+$maxWidthContainer: 950;
 // Общий отступ у контейнера
 $containerPadding: 30;
 

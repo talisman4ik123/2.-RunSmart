@@ -2,7 +2,6 @@
 
 @import "base/mixins";
 @import "base/fonts";
-@import "base/icons";
 @import "base/vars";
 @import "base/reset";
 @import "base/global";
@@ -10,5 +9,7 @@
 //@import "libs/";
 
 @import "main/header";
+@import "main/advantages";
+@import "main/consultation";
 
 @import "main/footer";
