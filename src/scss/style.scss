@@ -6,10 +6,14 @@
 @import "base/reset";
 @import "base/global";
 
-//@import "libs/";
+@import "libs/slick";
 
 @import "main/header";
 @import "main/advantages";
 @import "main/consultation";
+@import "main/carousel";
+@import "main/catalog";
 
 @import "main/footer";
+
+@import "main/modals";
